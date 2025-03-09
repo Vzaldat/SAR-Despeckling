@@ -148,7 +148,7 @@ if __name__ == '__main__':
     import torch
 
     parser = argparse.ArgumentParser(description='SARCNN for SAR image denoising')
-    DnCNN.add_commandline_networkparams(parser, "dncnn", 64, 17, 3, "relu", True)
+    DnCNN.add_commandline_networkparams(parser, "dncnn", 64, 18, 3, "relu", True)
 
     # Optimizer
     parser.add_argument('--optimizer', default="adam", choices=["adam", "sgd"]) # which optimizer to use
