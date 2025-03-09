@@ -54,3 +54,5 @@ CUDA_VISIBLE_DEVICES=0 python experiment_sarcnn17.py --eval --eval_epoch 50 --ex
 ```
 
 NOTE: the SSIM of the paper is little different because it was computed using Matlab instead of Python. 
+
+Used different datasets which can be found indatasets folder
